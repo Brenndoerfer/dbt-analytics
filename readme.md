@@ -16,8 +16,7 @@ conda activate dbt-env
 
 ```bash
 conda install numpy pandas
-conda install conda-forge::dbt-core conda-forge::dbt-bigquery
-# pip install other-package that's not in conda-forge
+pip install dbt-core dbt-bigquery dbt-snowflake sqlfluff
 ```
 
 ### Save Conda environment
